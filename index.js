@@ -1,7 +1,7 @@
 const express=require('express')
 const mongoose  = require('mongoose');
 const connectdb=require('./config/dconfig');
-
+const cors =require('cors');
 
 const hotelrouter=require('./Routes/hotes.router.js')
 const categoryrouter=require('./Routes/category.router.js')
